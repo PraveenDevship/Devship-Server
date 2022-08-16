@@ -1,0 +1,14 @@
+{
+  "port": "2022",
+  "mongodb": {
+    "host": "localhost",
+    "port": "27017",
+    "database": "Demo"
+  },
+  "directory": {
+    "users": "./uploads/images/users/"
+  },
+  "default_image": {
+    "users": ""
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "serialcounts": [
+    { "record": "group", "count": 5 },
+    { "record": "subject", "count": 13 },
+    { "record": "package", "count": 7, "year": 20 },
+    { "record": "chapter", "count": 168 },
+    { "record": "user", "count": 70 },
+    { "record": "promo", "count": 32 },
+    { "record": "content_feedback", "count": 8 },
+    { "record": "country", "count": 248 },
+    { "record": "state", "count": 4118 },
+    { "record": "city", "count": 48142 },
+    { "record": "college", "count": 314 },
+    { "record": "contactquery", "count": 5 },
+    { "record": "contactus", "count": 33 },
+    { "record": "txn", "count": 34 },
+    { "record": "recpt", "count": 34 },
+    { "record": "role", "count": 1016 }
+  ]
+}

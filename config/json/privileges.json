@@ -1,0 +1,972 @@
+[
+  {
+    "name": "Manage Index",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Free Group",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Group",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Subject",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Package",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Chapter",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Heading",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Heading",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Points Label",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Exam Category",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Exam Label",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Year Category",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Year Label",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Test Label",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Full Test Label",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Content",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Article",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Mcq",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Points",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Test",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Employee",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Employee List",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Promo Code",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Promo Code",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage User",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "User Details",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Profile",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Subscription",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Transaction",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Wallet",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Device Log",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Notification",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Event",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Push",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Fixed",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Analytics",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "User",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Promo",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Wallet",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Subscription",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Transaction",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manage Contact Us",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Query List",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Customer Query List",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Content Feedback",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Settings",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "General Settings",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+
+      {
+        "name": "SMTP Settings",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "SMS Settings",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Tax",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Application Setup",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Employee Job Title",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+
+      {
+        "name": "Employee Role",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Email Template",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "Country",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+
+      {
+        "name": "State",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "City",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "name": "College",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mobile Setup",
+    "key": 0,
+    "submenu": [
+      {
+        "name": "Walkthrough",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      },
+
+      {
+        "name": "Pages",
+        "key": 0,
+        "submenu2": [
+          {
+            "name": "View",
+            "key": 0
+          },
+          {
+            "name": "Add/Edit",
+            "key": 0
+          },
+          {
+            "name": "Delete",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  }
+]
