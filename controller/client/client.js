@@ -35,9 +35,11 @@ const pdfoptions = {
 };
 
 module.exports = (app, io) => {
+
   // const push_notification = require('../../model/push_notification.js')(io);
 
   var router = {};
+
 
   router.login = async (req, res) => {
     var data = {};
@@ -379,7 +381,7 @@ module.exports = (app, io) => {
 
   router.getData = async (req,res) => {
     const email = _.get(req.body, 'email')
-    const result = await client.find({email : email }).select({first_name : 1}).limit(1)
+    const result = await client.find({email : email })
     res.json(result);
 }
 
@@ -388,6 +390,40 @@ router.getData1 = async (req,res) => {
   res.json(result);
 }
 
+router.UpdateUser = async (req,res) => {
+  try{
+
+    const first_name = _.get(req.body,'first_name','');
+    const surname = _.get(req.body,'surname','');
+    const email = _.get(req.body,'email','');
+    const gender = _.get(req.body,'gender','');
+
+    await UpdateOneDocument('client',{_id : req.params.id},{
+      $set : {
+        first_name,
+        surname,
+        email,
+        gender,
+      }
+    }).then(() => {
+      res.json({
+        status : 1,
+        message : "Successfully Updated"
+      })
+    }).catch((err) => {
+      res.json({
+        status : 0,
+        message : "Wrong"
+      })
+    })
+
+  }catch{
+    res.json({
+      status : 0,
+      message : "Server Error",
+    })
+  }
+}
 
 
 router.UserDelete = async (req, res) => {

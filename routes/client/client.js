@@ -29,6 +29,11 @@ module.exports = (app, io) => {
     )
 
     app.post(
+      '/client/update/:id',
+      client.UpdateUser
+    )
+
+    app.post(
       '/admin/user/delete/:id',
       client.UserDelete
     )

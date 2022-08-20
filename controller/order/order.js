@@ -32,11 +32,46 @@ const {
 
 const { promisify } = require('util');
 const Product = require('../../schema/Product');
+const client = require('../../model/mongodb.js');
 const { result } = require('lodash');
 const unlinkAsync = promisify(fs.unlink);
 
 module.exports = (app, io) => {
+
+
   var router = {};
+
+
+  router.Lookup = async(req,res) => {
+
+    try{
+
+      await GetAggregation('order',[{
+
+        $lookup : {
+          from : 'client',
+          localField : 'userId',
+          foreignField : 'Uid',
+          as : 'ordersdata'
+        }
+
+      }],{},{}).then((data) => {
+        res.json({
+          status : 1,
+          message : "Success",
+          data
+        })
+      }).catch((err) => {
+        console.log(err)
+      })      
+    }catch{
+      res.json({
+        status : 0,
+        message : "Server Error"
+      })
+    }
+  }
+
 
   router.CreatedOrder = async (req,res) => {
     try{
@@ -57,7 +92,7 @@ module.exports = (app, io) => {
       const state =_.get(req.body,'state','');
       const pincode =_.get(req.body,'pincode','');
       const phoneno =_.get(req.body,'phoneno','');
-      const productId =_.get(req.body,'productId','');
+      const Uid =_.get(req.body,'Uid','');
       const approved = "Approved"
       const delivery = Math.floor(Math.random() * 10) + 1;
       const paid = "Paid";
@@ -83,7 +118,7 @@ module.exports = (app, io) => {
         approved,
         delivery,
         paid,
-        productId,
+        Uid,
         totalprize
       }
 

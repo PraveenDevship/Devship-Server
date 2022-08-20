@@ -15,6 +15,11 @@ module.exports = (app, io) => {
     )
 
     app.post(
+      '/order/look',
+      order.Lookup
+    )
+
+    app.post(
       '/order/data',
       order.OrderGetData
     )

@@ -7,7 +7,6 @@ PRODUCT_SCHEMA.ORDER = {
   prize: { type: String },
   offerprize: { type: Number},
   photo: { type: String},
-  productId : {type : String},
   discount : {type : String},
   quantity : {type : Number},
   approved : {type : String},
@@ -22,7 +21,8 @@ PRODUCT_SCHEMA.ORDER = {
   pincode : {type : String},
   phoneno : {type : String},
   paid : {type : String},
-  totalprize : {type : String}
+  totalprize : {type : String},
+  Uid : {type : String},
 };
 
 module.exports = PRODUCT_SCHEMA;

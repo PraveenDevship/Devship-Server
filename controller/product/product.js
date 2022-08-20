@@ -38,6 +38,7 @@ const unlinkAsync = promisify(fs.unlink);
 module.exports = (app, io) => {
   var router = {};
 
+
   router.createProduct = async (req, res) => {
 
     const photo = library.get_attachment(
