@@ -46,24 +46,38 @@ module.exports = (app, io) => {
 
     try{
 
-      await GetAggregation('order',[{
+      const OrderData = [];
 
+      OrderData.push({
         $lookup : {
           from : 'client',
-          localField : 'userId',
-          foreignField : 'Uid',
-          as : 'ordersdata'
-        }
+          localField : 'Uid',
+          foreignField : 'userID',
+          pipeline : [{
+            $project : {
+              email : 1,
+              first_name : 1,
+              surname : 1,
+              userID : 1
+            }
+          }],
+          as : 'clientdata',
+        },
+      },{$unwind : '$clientdata'})
 
-      }],{},{}).then((data) => {
+      const Order = await GetAggregation('order',OrderData)
+      if(Order){
         res.json({
           status : 1,
-          message : "Success",
-          data
+          message : 'Success',
+          Order
         })
-      }).catch((err) => {
-        console.log(err)
-      })      
+      }else{
+        res.json({
+          status : 0,
+          message : "Data not found"
+        })
+      }
     }catch{
       res.json({
         status : 0,
@@ -71,6 +85,85 @@ module.exports = (app, io) => {
       })
     }
   }
+
+
+
+  // router.Lookup = async(req,res) => {
+
+  //   try{
+
+  //     await GetAggregation('order',[{
+
+  //       $lookup : {
+  //         from : 'client',
+  //         localField : 'Uid',
+  //         foreignField : 'userID',
+  //         as : 'ordersdata'
+  //       }
+
+  //     }],{},{}).then((data) => {
+  //       res.json({
+  //         status : 1,
+  //         message : "Success",
+  //         data
+  //       })
+  //     }).catch((err) => {
+  //       console.log(err)
+  //     })      
+  //   }catch{
+  //     res.json({
+  //       status : 0,
+  //       message : "Server Error"
+  //     })
+  //   }
+  // }
+
+
+  // router.Lookup = async (req,res) => {
+
+  //   try{
+
+  //     const query = [];
+
+  //     query.push({
+        
+  //       $lookup : {
+  //         from : 'client',
+  //         localField : 'Uid',
+  //         foreignField : 'userID',
+  //         pipeline : [{
+  //           $project : {
+  //             first_name : 1,
+  //             email : 1,
+  //             surname : 1
+  //           }
+  //         }],
+  //         as : 'Clientdata',
+  //       },
+  //     });
+
+  //     const OrderData = await GetAggregation('order',query);
+  //     if(OrderData){
+  //       res.json({
+  //         status : 1,
+  //         message : "Success",
+  //         OrderData
+  //       })
+  //     }else{
+  //       res.json({
+  //         status : 0,
+  //         message : "Data not found",
+  //       })
+  //     }
+
+  //   }catch {
+  //     res.json({
+  //       status : 0,
+  //       message : "Server error",
+  //     })
+  //   }
+  // }
+
 
 
   router.CreatedOrder = async (req,res) => {
